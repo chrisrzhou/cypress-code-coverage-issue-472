@@ -1,0 +1,29 @@
+{
+  "name": "cypress-coverage-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "open": "DEBUG=code-coverage cypress open-ct",
+    "test": "DEBUG=code-coverage cypress run-ct"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@cypress/code-coverage": "^3.9.7",
+    "@cypress/react": "^5.9.1",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-istanbul": "^6.0.0",
+    "cypress": "^7.6.0",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.40.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
